@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palos Pines - Block Party 2024</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Paytone+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+  <header class="bg-[#E5EAE1]">
+    <div class="flex justify-between max-w-5xl mx-auto items-center py-5">
+      <div>
+        <img src="/images/pines.png" class="w-[50px]">
+      </div>
+
+      <div class="flex items-center gap-8">
+        <a href="#info" class="hover:underline">Info</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+        <a href="#donate" class="bg-green hover:bg-green/85 rounded-lg text-white py-2 px-4 font-semibold uppercase">Donate</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="bg-hero bg-cover">
+    <div class="flex flex-col items-center max-w-[600px] mx-auto items-center py-20">
+      <div class="font-title text-green text-[34px] leading-3">
+        Palos Pines
+      </div>
+
+      <h1 class="font-title text-white text-[64px] leading-tight mb-4">
+        Block Party
+      </h1>
+
+      <p class="text-white text-center text-[22px] leading-[28px] font-light mb-10">
+        Welcome to the home of the Palos Pines Block Party!
+        Here you can find event information, make a donation,
+        and contact the organizers.
+      </p>
+
+      <div>
+        <a href="#donate" class="inline-block bg-green hover:bg-green/85 rounded-lg text-white py-3 px-7 font-semibold uppercase">
+          Make a Donation
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-w-5xl mx-auto items-center py-20">
+    <h2 class="font-title text-[34px] font-bold ">
+      Make a Donation
+    </h2>
+
+    <p class="text-[18px] mb-10 font-light">Please use one of the following methods to submit a donation:</p>
+
+    <div class="flex justify-between">
+      <ul class="text-[18px] font-light space-y-4 ml-10 list-disc">
+        <li>Scan the Venmo QR code to the right with your phone camera</li>
+        <li>Send a Venmo payment to <span class="font-semibold text-green">@palospinesblockparty</span></li>
+        <li>Send a Zelle payment to <span class="font-semibold text-green">@palospinesblockparty</span></li>
+        <li>
+          <div class="mb-2">Send cash or check to:</div>
+          <span class="text-green font-semibold">
+            12819 S Ponderosa Dr<br>
+            Palos Heights, IL<br>
+            60463
+          </span>
+        </li>
+      </ul>
+
+      <div>
+        <img src="/images/qr-code.png" class="w-[220px]">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+    ':35729/livereload.js?snipver=1"></' + 'script>')
+  </script>
+</body>
+</html>
