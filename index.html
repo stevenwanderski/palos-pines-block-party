@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-  <header class="bg-[#E5EAE1] px-8">
+  <header class="bg-[#E5EAE1] px-8 fixed w-full">
     <div class="flex justify-between max-w-5xl mx-auto items-center py-5">
       <div>
         <img src="/images/pines.png" class="w-[50px]">
@@ -19,13 +19,13 @@
 
       <div class="flex items-center gap-8">
         <a href="#info" class="hover:underline">Info</a>
-        <a href="#contact" class="hover:underline">Contact</a>
+        <a href="mailto:palospines15@gmail.com" class="hover:underline">Contact</a>
         <a href="#donate" class="bg-green hover:bg-green/85 rounded-lg text-white py-2 px-4 font-semibold uppercase">Donate</a>
       </div>
     </div>
   </header>
 
-  <div class="bg-hero bg-cover px-8">
+  <div class="bg-hero bg-cover px-8 pt-24">
     <div class="flex flex-col items-center max-w-[600px] mx-auto items-center py-20">
       <div class="font-title text-green text-[28px] md:text-[34px] leading-[34px]">
         Palos Pines
@@ -35,11 +35,10 @@
         Block Party
       </h1>
 
-      <p class="text-white text-center text-[18px] md:text-[22px] leading-[28px] font-light mb-10">
-        Welcome to the home of the Palos Pines Block Party!
-        Here you can find event information, make a donation,
-        and contact the organizers.
-      </p>
+      <div class="text-white text-center text-[18px] md:text-[22px] leading-[28px] font-light mb-10 space-y-2">
+        <p>September 28, 2024</p>
+        <p>2:00pm - 12:00am</p>
+      </div>
 
       <div>
         <a href="#donate" class="inline-block bg-green hover:bg-green/85 rounded-lg text-white py-3 px-7 font-semibold uppercase">
@@ -49,18 +48,18 @@
     </div>
   </div>
 
-  <div class="max-w-5xl mx-auto items-center py-20 px-8">
+  <div class="max-w-5xl mx-auto items-center pt-32 pb-10 px-8" id="donate">
     <h2 class="font-title text-[34px] font-bold ">
       Make a Donation
     </h2>
 
-    <p class="text-[18px] mb-10 font-light">Please use one of the following methods to submit a donation:</p>
+    <p class="text-[18px] mb-10 font-light">
+      Please use one of the following methods to submit a donation:
+    </p>
 
-    <div class="flex flex-wrap gap-10 justify-between">
-      <ul class="text-[18px] font-light space-y-8 md:space-y-4 ml-4 md:ml-10 list-disc">
-        <li>Scan the Venmo QR code with your phone's camera</li>
-        <li>Send a Venmo payment to <span class="font-semibold text-green">@palospinesblockparty</span></li>
-        <li>Send a Zelle payment to <span class="font-semibold text-green">@palospinesblockparty</span></li>
+    <div class="flex flex-wrap gap-10">
+      <ul class="md:basis-1/2 text-[18px] font-light space-y-8 md:space-y-4 ml-4 md:ml-10 list-disc">
+        <li>Use this QR code to pay digitally via <strong class="font-bold">Zelle</strong> (scan code with phone camera, find your bank, send to: Elizabeth Hackett)</li>
         <li>
           <div class="mb-2">Send cash or check to:</div>
           <span class="text-green font-semibold">
@@ -72,8 +71,62 @@
       </ul>
 
       <div class="mr-16">
-        <img src="/images/qr-code.png" class="w-[220px]">
+        <img src="/images/qr-code2.png" class="w-[220px]">
       </div>
+    </div>
+  </div>
+
+  <hr class="max-w-5xl mx-auto border-b border-b-gray-100">
+
+  <div class="max-w-5xl mx-auto items-center pt-32 pb-20 px-8" id="info">
+    <h2 class="font-title text-[34px] font-bold mb-3">
+      Party Info
+    </h2>
+
+    <div class="mb-7">
+      <h3 class="font-bold text-xl mb-1">Date</h3>
+
+      <div>
+        September 28, 2042 <br>
+        2pm - 12am
+      </div>
+    </div>
+
+    <div class="mb-7">
+      <h3 class="font-bold text-xl mb-1">Location</h3>
+
+      <div>
+        On Syamore Ln, between Ponderosa Dr and White Pine Pl
+      </div>
+    </div>
+
+    <div class="mb-7">
+      <h3 class="font-bold text-xl mb-1">Schedule</h3>
+
+      <ul class="space-y-2 mb-6">
+        <li><strong>2pm:</strong> Bike decorating, bike parade & craft</li>
+        <li><strong>2pm:</strong> DJ begins</li>
+        <li><strong>2-8pm:</strong> Raffle ticket sales</li>
+        <li><strong>3pm:</strong> Kids musical games (limbo, musical chairs, freeze dance)</li>
+        <li><strong>3-7pm:</strong> Bounce house</li>
+        <li><strong>4pm:</strong> Face painting</li>
+        <li><strong>4-6pm:</strong> Joey's Redhots</li>
+        <li><strong>4-6pm:</strong> Cocktail contest </li>
+        <li><strong>8pm:</strong> Pull & announce raffle winners</li>
+        <li><strong>9pm:</strong> Fire pit & smores </li>
+        <li><strong>9pm:</strong> Projector movie picnic </li>
+      </ul>
+
+      <div class="text-lg mb-2">
+        <strong>Bonus!</strong>
+      </div>
+
+      <ul class="space-y-2 ml-4 list-disc">
+        <li>A visit from the Palos Heights Police & Fire Departments</li>
+        <li>Ice Cream Truck (self-pay)</li>
+        <li>Face painting</li>
+        <li>Adult games</li>
+      </ul>
     </div>
   </div>
 

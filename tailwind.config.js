@@ -6,15 +6,16 @@ module.exports = {
       title: ['"Paytone One"'],
       sans: ['Inter']
     },
-    colors: {
-      green: '#4F7034',
-      white: '#FFFFFF',
-      black: '#000000'
-    },
     backgroundImage: {
       hero: "url('/images/hero-bg.png')"
     },
-    extend: {},
+    extend: {
+      colors: {
+        green: '#4F7034',
+        white: '#FFFFFF',
+        black: '#000000'
+      }
+    },
   },
   plugins: [],
 }
